@@ -1,10 +1,6 @@
 ```python
 import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
 
-
-from scipy.signal import butter, lfilter
 from sklearn.preprocessing import StandardScaler, LabelEncoder, LabelBinarizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix
@@ -17,7 +13,7 @@ from tensorflow.keras.layers import Flatten, Dense, Dropout, BatchNormalization,
 
 
 
-# DNN
+# Convolutional Neural Network
 
 
 ```python

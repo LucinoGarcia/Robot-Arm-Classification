@@ -9,7 +9,7 @@
 
 
 # Code and Resources 
-**Python Version:** 3.10.12
+**Python Version:** 3.10.12 <br>
 **Packages:** numpy, matplotlib, seaborn, os, pandas, sklearn, scipy, keras
 - For Web Framework Requirements: pip install -r requirements.txt
 - Scraper Github: https://github.com/arapfaik/scraping-glassdoor-selenium

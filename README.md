@@ -2,6 +2,6 @@
 
 still need to fill in
 
-![Image](/images/BME CM.png)
+![Image](/images/BME_CM.png)
 
 the cm for the model

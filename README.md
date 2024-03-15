@@ -10,7 +10,9 @@
 
 # Code and Resources 
 **Python Version:** 3.10.12 <br>
-**Packages:** NumPy, Matplotlib, Seaborn, OS, Pandas, Keras, SciPy, scikit-learn
+**Packages:** NumPy, Matplotlib, Seaborn, OS, Pandas, Keras, SciPy, scikit-learn <br>
+**OpenBCI's EEG Electrode Cap:** https://shop.openbci.com/products/openbci-eeg-electrocap <br>
+**Universal Robot's UR5e:** https://www.universal-robots.com/products/ur5-robot/<br>
 - For Web Framework Requirements: pip install -r requirements.txt
 - Scraper Github: https://github.com/arapfaik/scraping-glassdoor-selenium
 - Scraper Article: https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905

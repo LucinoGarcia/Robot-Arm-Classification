@@ -7,7 +7,6 @@
 
 
 
-
 # Code and Resources 
 **Python Version:** 3.10.12 <br>
 **Packages:** NumPy, Matplotlib, Seaborn, OS, Pandas, Keras, SciPy, scikit-learn <br>
@@ -17,10 +16,21 @@
 
 
 
+# Data Collection
+Over 1000 samples were collected for Gesture 1 using "The OpenBCI GUI". Since the raw EEG data was saved by session, a second person was necessary to annote the times necessary to partition them into individual EEGs using [this script](/OpenBCI_GUI_Timing.py).
+
+We believed the GUI was the most efficient way to extraoplate the raw EEG data but the strain on the computer's battery life was too great. This prompted a second person to annotate the times 
+We wrote a script
 
 
-# Web scrapping / data collection info
+
+
+
+
+
+
 # Data cleaning
+how many each were trimmed to
 # Brief eda
 # Model building and performance of each (chosen / rejected)
 # Insights / perspective gained

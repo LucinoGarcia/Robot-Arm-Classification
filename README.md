@@ -30,7 +30,7 @@ In the interest of class balance, the number of samples for each gesture was lim
 
 
 
-# Brief eda
+# EDA
 
 
 
@@ -39,7 +39,7 @@ In the interest of class balance, the number of samples for each gesture was lim
 
 
 
-# Model building and performance of each (chosen / rejected)
+# Model Building
 
 
 

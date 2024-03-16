@@ -42,12 +42,15 @@ In the interest of class balance, the number of samples for each gesture was lim
 # Model Building
 With each sample having 4000 data points and being 3-dimensional, the complexity and time constraints left few options. Rudimentary CNN, LSTM, SVM, GBM, and Random Forest models were built, but only the CNN and SVM models yielded accuracies significantly greater than a random guess. Due to our team's lack of familiarity with SVMs and the aforementioned time constraints, the CNN was chosen as the model to be further refined. <br><br>
 Accuracy was chosen as the model's verification metric due to its interpretability and safety precautions regarding the UR5e Robot Arm. <br><br>
-The CNN model is relatively simple with two convolutional layers, each followed by a max-pooling layer, a 128-node ReLU Dense layer, and a final 5-node SoftMax Dense layer for classification. [The CNN model](/Robot_Arm_Classification_CNN.hdf5) yielded a fairly high accuracy of 92% – likely due to the fact that the data was collected from, and therefore overfit to, a single person. The notebook for the model can be [found here](/Robot_Arm_Classification,_Model_Building.ipynb). Below is the confusion matrix of the model.
+The CNN model is relatively simple with two convolutional layers, each followed by a max-pooling layer, a 128-node ReLU Dense layer, and a final 5-node SoftMax Dense layer for classification. [The CNN model](/Robot_Arm_Classification_CNN.hdf5) yielded a fairly high accuracy of 92%. The notebook for the model can be [found here](/Robot_Arm_Classification,_Model_Building.ipynb). Below is the confusion matrix of the model.
 
     
 ![Image](/images/BME_CM.png)
 
 
 
-# Insights
-The CNN had a high accuracy of 92% but was understandale due to the data being collected from, and therefor overfit to, a single person.
+# Potential Implications
+- There are a plethora of ways EEG data collection can go awry, ranging from the electrical interference of phones in the room to the subject's mood and stress level during that session.
+- The CNN likely performed well with the data due to its ability to handle spatial data.
+- The SVM could have possibly performed even better due to its proficiency in classification with higher dimensional data and dimension reduction capability.
+- The model's high accuracy of 92% is likely due to the fact that the data was collected from, and therefore overfit to, a single person.

@@ -24,17 +24,27 @@ The data was too large to upload but has a size of (2980, 250, 16).
 
 
 # Data Cleaning
-Despite each gesture having over 1000 samples, several had to be discarded for a bevy of possible errors stemming from the complexity of EEG collection. Each gesture had each of its samples plotted atop one-another. The resulting ensamble plots acted as a reference that allowed our team to manually differentiate the useable samples from those that were not. [This notebook](/Robot_Arm_Classification,_Data_Cleaning.ipynb) showcases the cleaning of the data. The files in the "...Cuts.txt" format were utilized to section the original EEGs of 625 sample points across 16 channels into 250 sample points across 16 channels. <br>
-Due to its collection via The OpenBCI GUI, Gesture 1 required a scale factor comprised of the BCI's resolution and voltage. <br>
-In the intrest of class balance, the number of samples for each gesture was limited to the number of samples in Gesture 1, which had 596 approved samples. A such, there were 2980 samples in total.
-
-
+Despite each gesture having over 1000 samples, several had to be discarded for a bevy of possible errors stemming from the complexity of EEG collection. Each gesture had its samples plotted atop one another. The resulting ensemble plots acted as a reference that allowed our team to manually differentiate between usable samples and those that were not. [This notebook](/Robot_Arm_Classification,_Data_Cleaning.ipynb) showcases the cleaning of the data. The files in the "...Cuts.txt" format were utilized to segment the original EEGs of 625 sample points into 250 sample points, due to the BCI's sampling frequency of 125 Hz. <br><br>
+Due to its collection via The OpenBCI GUI, Gesture 1 required a scale factor comprised of the BCI's resolution and voltage. <br><br>
+In the interest of class balance, the number of samples for each gesture was limited to the number of samples in Gesture 1, which had 596 approved samples. As such, there were 2980 samples in total.
 
 
 
 # Brief eda
 
+
+
+
+
+
+
+
 # Model building and performance of each (chosen / rejected)
+
+
+
+
+
 
 # Insights / perspective gained
 

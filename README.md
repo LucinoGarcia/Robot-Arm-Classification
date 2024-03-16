@@ -32,9 +32,11 @@ In the interest of class balance, the number of samples for each gesture was lim
 
 # EDA
 Due to the volatility of raw EEG data, neither measure of dispersion nor central tendancy of will prove very insightful. Ensemble plots can better showcase EEG behavior. Below is ensemble plots of Gesture 3 by channel. The other ensembles can be found in [this project's EDA notebook](/Robot_Arm_Classification,_EDA.ipynb).
+
 ![Image](/images/G3_Ens.png)
 
 While class imbalance isn't too much of a problem until the majority class is 5x greater than the minority, that rule-of-thumb only really applies to larger datasets. The image below displays the number of samples per gesture.
+
 ![Image](/images/Number_of_Samples_by_Gesture.png)
 
 

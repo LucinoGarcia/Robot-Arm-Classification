@@ -17,8 +17,13 @@
 
 
 # Data Collection
-Over 1000 samples were collected for Gesture 1 using "The OpenBCI GUI". Since the raw EEG data was saved by session, a second person was necessary to annote the times necessary to partition them into individual EEGs using [this script](/OpenBCI_GUI_Timing.py). We initially believed the GUI was the most efficient way to extraoplate the raw EEG data but the strain on the computer's battery life was too great. A program running from the machine's terminal shell was [created](/BCI_LiveFeeding.py). We made it so that the EEGs were saved as individual files which proved much easier when amssing them into a single database. <br><br>
-The data was too large to upload but have a size of (2980, 250, 16).
+Over 1000 samples were collected for Gesture 1 using "The OpenBCI GUI". Since the raw EEG data was saved by session, a second person was necessary to annotate the times required to partition them into individual EEGs using [this script](/OpenBCI_GUI_Timing.py). Initially, we believed the GUI was the most efficient way to extrapolate the raw EEG data, but the strain on the computer's battery life was too great. A program running from the machine's terminal shell was [created](/BCI_LiveFeeding.py). We configured it so that the EEGs were saved as individual files, which proved much easier when amassing them into a single database. The program was used for Gestures 2, 3, and 4, as well as the negative classification, Gesture 0.
+ <br><br>
+The data was too large to upload but has a size of (2980, 250, 16).
+
+
+
+
 
 
 # Data cleaning
@@ -26,7 +31,9 @@ how many each were trimmed to
 scale factor
 
 # Brief eda
+
 # Model building and performance of each (chosen / rejected)
+
 # Insights / perspective gained
 
 

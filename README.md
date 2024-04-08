@@ -56,3 +56,8 @@ The CNN model is relatively simple with two convolutional layers, each followed 
 - The CNN likely performed well with the data due to its ability to handle spatial data.
 - The SVM could have possibly performed even better due to its proficiency in classification with higher dimensional data and dimension reduction capability.
 - The model's high accuracy of 92% is likely due to the fact that the data was collected from, and therefore overfit to, a single person.
+<br><br><br>
+
+
+[GitHub Repository for Brain-Controlled Prosthetic Gesture Classification](https://github.com/LucinoGarcia/Robot-Arm-Classification)
+[Back to Portfolio](https://lucinogarcia.github.io/Portfolio/)
